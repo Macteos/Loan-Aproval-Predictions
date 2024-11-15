@@ -43,6 +43,7 @@ Loan-Approval-Predictions/
 │   ├── 2_Preprocessing.ipynb  # Data Preprocessing and Feature Engineering
 │   ├── 3_Modeling.ipynb       # Model Training and Selection
 │   ├── 4_Evaluation.ipynb     # Model Evaluation and Metrics
+│   ├── 5_Complete_Process.ipynb     # Model Evaluation and Metrics
 ├── src/                       # Python Scripts for Modular Code
 │   ├── data_processing.py     # Data preprocessing functions
 │   ├── model.py               # Model training and evaluation functions
