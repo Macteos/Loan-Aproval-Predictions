@@ -16,6 +16,7 @@ from matplotlib.patches import ConnectionPatch
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import KFold
 
+
 df_train = pd.read_csv('../data/raw/train.csv')
 df_test = pd.read_csv('../data/raw/test.csv')
 
@@ -55,3 +56,5 @@ scaled_test_data = df_test
 
 scaled_test_data.to_csv('../data/processed/processed_test.csv', index=False)
 scaled_train_data.to_csv('../data/processed/processed_train.csv', index=False)
+
+y.to_csv('../data/processed/processed_y.csv', index=False)

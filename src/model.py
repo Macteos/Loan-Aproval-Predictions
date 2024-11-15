@@ -37,7 +37,7 @@ kf = KFold(n_splits=n_splits, shuffle=True, random_state=42)
 
 scaled_train_data = pd.read_csv('../data/processed/processed_train.csv')
 scaled_test_data = pd.read_csv('../data/processed/processed_test.csv')
-
+y = pd.read_csv('../data/processed/processed_y.csv')
 
 lgbm_predictions = np.zeros(len(scaled_train_data))
 lgbm_true_labels = np.zeros(len(scaled_train_data))
